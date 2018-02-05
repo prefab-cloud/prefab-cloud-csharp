@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prefab-cloud-clr", "src\prefab-cloud-clr\prefab-cloud-clr.csproj", "{F6A786D8-DFF6-48D4-8B1A-6F12F64AE85A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "z-prefab-cloud-clr-test", "test\prefab-cloud-clr-test\z-prefab-cloud-clr-test.csproj", "{EF76A197-4201-4CD6-8908-0C46607D2258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prefab-cloud-clr-demo", "src\prefab-cloud-clr-demo\prefab-cloud-clr-demo.csproj", "{2626AEF9-5959-4C74-B553-4A5B0EC20A92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A786D8-DFF6-48D4-8B1A-6F12F64AE85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A786D8-DFF6-48D4-8B1A-6F12F64AE85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A786D8-DFF6-48D4-8B1A-6F12F64AE85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A786D8-DFF6-48D4-8B1A-6F12F64AE85A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF76A197-4201-4CD6-8908-0C46607D2258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF76A197-4201-4CD6-8908-0C46607D2258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF76A197-4201-4CD6-8908-0C46607D2258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF76A197-4201-4CD6-8908-0C46607D2258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2626AEF9-5959-4C74-B553-4A5B0EC20A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2626AEF9-5959-4C74-B553-4A5B0EC20A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2626AEF9-5959-4C74-B553-4A5B0EC20A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2626AEF9-5959-4C74-B553-4A5B0EC20A92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C85B5634-76E3-4495-9E94-4E478A3A6539}
+	EndGlobalSection
+EndGlobal

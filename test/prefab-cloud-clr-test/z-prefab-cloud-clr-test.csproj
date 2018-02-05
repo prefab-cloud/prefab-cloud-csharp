@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>prefab-cloud-clr-test</AssemblyName>
+
+    <RootNamespace>PrefabCloud.Test</RootNamespace>
+
+    <Authors>Denis Rozhkov &lt;denis@rozhkoff.com&gt;</Authors>
+
+    <Company>PrefabCloud Inc.</Company>
+
+    <Copyright>2018 PrefabCloud Inc.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>

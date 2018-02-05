@@ -1,0 +1,7 @@
+.vs
+src/prefab-cloud-clr/bin
+src/prefab-cloud-clr/obj
+test/prefab-cloud-clr-test/obj
+test/prefab-cloud-clr-test/bin
+src/prefab-cloud-clr-demo/bin
+src/prefab-cloud-clr-demo/obj

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>PrefabCloud.Demo</RootNamespace>
+    <Authors>Denis Rozhkov &lt;denis@rozhkoff.com&gt;</Authors>
+    <Company>PrefabCloud Inc.</Company>
+    <Copyright>2018 PrefabCloud Inc.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\prefab-cloud-clr\prefab-cloud-clr.csproj" />
+  </ItemGroup>
+
+</Project>
