@@ -18,6 +18,8 @@ namespace PrefabCloud
 		protected Channel m_channel;
 
 		protected ApiKey m_apiKey;
+		public ApiKey ApiKey { get { return m_apiKey; } }
+
 		protected TimeSpan m_timeout;
 
 

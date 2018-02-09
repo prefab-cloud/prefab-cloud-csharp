@@ -4,6 +4,11 @@ namespace PrefabCloud.Test.Types
 {
 	class TestPrefabCloudClient : PrefabCloudClient
 	{
+		public TestPrefabCloudClient()
+		{
+			m_apiKey = new PrefabCloud.Types.ApiKey( "1|2" );
+		}
+
 		public override void Close()
 		{
 		}

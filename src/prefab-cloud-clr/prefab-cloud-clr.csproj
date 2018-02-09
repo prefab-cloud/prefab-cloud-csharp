@@ -6,13 +6,14 @@
     <Authors>Denis Rozhkov &lt;denis@rozhkoff.com&gt;</Authors>
     <Company>PrefabCloud Inc.</Company>
     <Copyright>2018 PrefabCloud Inc.</Copyright>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.5.1" />
-    <PackageReference Include="Grpc" Version="1.8.6" />
-    <PackageReference Include="Grpc.Tools" Version="1.8.6" />
+    <PackageReference Include="Grpc" Version="1.9.0" />
+    <PackageReference Include="Grpc.Tools" Version="1.9.0" />
+    <PackageReference Include="murmurhash" Version="1.0.2" />
     <PackageReference Include="YamlDotNet.NetCore" Version="1.0.0" />
   </ItemGroup>
 
