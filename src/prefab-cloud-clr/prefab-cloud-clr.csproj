@@ -1,12 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>PrefabCloud</RootNamespace>
     <Authors>Denis Rozhkov &lt;denis@rozhkoff.com&gt;</Authors>
     <Company>PrefabCloud Inc.</Company>
     <Copyright>2018 PrefabCloud Inc.</Copyright>
     <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Version>0.0.1.1</Version>
+    <Description>Prefab Cloud .NET client</Description>
+    <RepositoryUrl>https://github.com/prefab-cloud/prefab-cloud-csharp</RepositoryUrl>
+    <PackageTags>prefab</PackageTags>
+    <PackageProjectUrl>https://github.com/prefab-cloud/prefab-cloud-csharp</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +22,6 @@
     <PackageReference Include="Grpc" Version="1.9.0" />
     <PackageReference Include="Grpc.Tools" Version="1.9.0" />
     <PackageReference Include="murmurhash" Version="1.0.2" />
-    <PackageReference Include="YamlDotNet.NetCore" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
