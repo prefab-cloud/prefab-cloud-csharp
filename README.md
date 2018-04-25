@@ -1,5 +1,7 @@
 # prefab-cloud-csharp
-Prefab Cloud .NET client
+https://www.prefab.cloud/  .NET client
+
+FeatureFlags & RateLimits as a service
 
 ## Sample usage:
 ```c#
